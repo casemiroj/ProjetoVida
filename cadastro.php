@@ -30,27 +30,27 @@
             <h2>Faça seu cadastro</h2>
             <p>Ajude a salvar uma vida</p>
 
-            <form>
+            <form action="action.php" method="post">
                 <fieldset class="dadosPessoais">
                     <label for="nomeSobrenome">Nome completo</label>
-                    <input type="text" id="nomeSobrenome" class="inputPadrao" placeholder="Nome completo" required>
+                    <input name="nomeSobrenome" type="text" id="nomeSobrenome" class="inputPadrao" placeholder="Nome completo" required>
                     <label for="cpf">CPF</label>
-                    <input type="number" id="cpf" class="inputPadrao" placeholder="xxx.xxx.xxx-xx" required>
+                    <input name="cpf" type="number" id="cpf" class="inputPadrao" placeholder="xxx.xxx.xxx-xx" required>
                     <label for="telefone">Telefone</label>
-                    <input type="tel" id="telefone" class="inputPadrao" placeholder="(xx)xxxx-xxxx" required>
+                    <input name="telefone" type="tel" id="telefone" class="inputPadrao" placeholder="(xx)xxxx-xxxx" required>
                     <label for="tipoSangue">Tipo sanguineo</label>
-                    <input type="text" id="tipoSangue" class="inputPadrao" placeholder="Tipo sanguineo" required>
+                    <input name="tipoSangue" type="text" id="tipoSangue" class="inputPadrao" placeholder="Tipo sanguineo" required>
                 </fieldset>
 
                 <fieldset class="endereco">
                     <label for="uf">UF</label>
-                    <input type="text" id="uf" class="inputPadrao" placeholder="SP" required>
+                    <input name="uf" type="text" id="uf" class="inputPadrao" placeholder="SP" required>
                     <label for="cidade">Cidade</label>
-                    <input type="text" id="cidade" class="inputPadrao" placeholder="São Paulo" required>
+                    <input name="cidade" type="text" id="cidade" class="inputPadrao" placeholder="São Paulo" required>
                     <label for="bairro">Bairro</label>
-                    <input type="text" id="bairro" class="inputPadrao" placeholder="Bairro" required>
+                    <input name="bairro" type="text" id="bairro" class="inputPadrao" placeholder="Bairro" required>
                     <label for="endereco">Endereço</label>
-                    <input type="text" id="endereco" class="inputPadrao" placeholder="Rua dos Alfeneiros, 4" required>
+                    <input name="endereco" type="text" id="endereco" class="inputPadrao" placeholder="Rua dos Alfeneiros, 4" required>
                 </fieldset>
 
                 <input type="submit" value="Enviar" class="enviar">
