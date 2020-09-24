@@ -1,0 +1,177 @@
+/*RESET CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("../img/fundo.jpg");
+}
+
+/*HEADER*/
+header {
+    height: 120px;
+}
+.menu {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 120px;
+    float: left;
+}
+
+.btn-cadastro {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #EF0000;
+    float: right;
+    border-radius: 30px;
+    transition: 500ms;
+}
+
+.btn-cadastro:hover{
+    filter: brightness(70%);
+    border-radius: 10px;
+}
+
+.btn-requisitos {
+    width: 150px;
+    height: 50px;
+    background-color: #3F8FBC;
+    float: right;
+    margin-right: 10px;
+    border-radius: 30px;
+    transition: 500ms;
+    display: flex;
+    align-items: center;
+}
+
+.btn-requisitos:hover{
+    filter: brightness(70%);
+    border-radius: 10px;
+}
+                                        
+.btn-cadastro p, .btn-requisitos p{
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    flex: 1;
+}
+
+/*MAIN*/
+main {
+    width: 80%;
+    margin: 80px auto;
+}
+main h1 {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+main img{
+    width: 100%;
+}
+
+/*CADASTRO*/
+.cadastro {
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.cadastro h2{
+    text-align: center;
+    font-size: 2em;
+    color: #EF0000;
+}
+
+.cadastro p {
+    text-align: center;
+    font-style: italic;
+    color: #3F8FBC;
+}
+
+form {
+    width: 100%;
+    margin: 20px auto;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 1em;
+    font-weight: bolder;
+    margin: 0 0 10px;
+}
+
+fieldset{
+    border: none;
+}
+
+.inputPadrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.enviar {
+    width: 50%;
+    height: 50px;
+    font-size: 1.5em;
+    background: #3F8FBC;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 700ms;
+    border-radius: 5px;
+    margin-left: 175px;
+}
+
+.enviar:hover {
+    transform: scale(1.1);
+    background: #EF0000;
+}
+
+/*REQUISITOS*/
+.requisitos{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.requisitos h2 {
+    color: #EF0000;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.requisitos p{
+    color: #3F8FBC;
+    font-style: italic;
+    font-size: 1em;
+    text-align: center;
+}
+
+.requisitos ul {
+    margin-top: 20px;
+}
+
+.requisitos ul h2{
+    margin-bottom: 20px;
+}
+
+.requisitos ul li {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
