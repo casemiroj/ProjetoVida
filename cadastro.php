@@ -16,10 +16,6 @@
                 <img class="logo" src="img/logo2.png" alt="">
             </a>
             <div class="btns">
-                <a href="cadastro.php">
-                    <div class="btn-cadastro btn"> <p>Cadastre-se</p> </div>
-                </a>
-                
                 <a href="requisitos.php">
                     <div class="btn-requisitos btn"> <p>Requisitos</p> </div>
                 </a>

@@ -39,6 +39,7 @@ header {
     display: flex;
     align-items: center;
     border-radius: 20px;
+    transition: 300ms;
 }
 
 .btn-cadastro {
@@ -53,7 +54,7 @@ header {
     background-color: #ffe421;
 }
 
-.btn-cadastro:hover, .btn-requisitos:hover, .btn-login:hover {
+.btn:hover {
     filter: brightness(70%);
 }
                                         

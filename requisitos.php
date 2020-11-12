@@ -19,10 +19,6 @@
                 <a href="cadastro.php">
                     <div class="btn-cadastro btn"> <p>Cadastre-se</p> </div>
                 </a>
-                
-                <a href="requisitos.php">
-                    <div class="btn-requisitos btn"> <p>Requisitos</p> </div>
-                </a>
 
                 <a href="login.php">
                     <div class="btn-login btn"> <p>Login</p> </div>
