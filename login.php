@@ -35,10 +35,9 @@
             </div>
 
             <form class="login" action="valida.php" method="post">
-                <label for="loginEmail">Email</label>
-                <input type="email" name="loginEmail" id="loginEmail" placeholder="Digite seu email" required>
-                <label for="loginSenha">Senha</label>
-                <input type="password" name="loginSenha" id="loginSenha" placeholder="Digite sua senha" required>
+               
+                <input type="email" name="loginEmail" id="loginEmail" placeholder="Email" required>
+                <input type="password" name="loginSenha" id="loginSenha" placeholder="Senha" required>
 
                 <input type="submit" value="Acessar" class="btnAcessar">
             </form>
