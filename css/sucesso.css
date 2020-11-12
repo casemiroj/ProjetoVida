@@ -1,0 +1,13 @@
+/* SUCESSO */
+.agradecimento h2 {
+    text-align: center;
+    color: #EF0000;
+    font-size: 3rem;
+}
+
+.agradecimento p {
+    text-align: center;
+    color: #3F8FBC;
+    font-size: 1rem;
+    margin-top: 10px;
+}

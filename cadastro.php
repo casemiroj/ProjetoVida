@@ -30,7 +30,7 @@
             <h2>Faça seu cadastro</h2>
             <p>Ajude a salvar uma vida</p>
 
-            <form action="action.php" method="post">
+            <form action="grava.php" method="post">
                 <fieldset class="dadosPessoais">
                     <label for="nomeSobrenome">Nome completo</label>
                     <input name="nomeSobrenome" type="text" id="nomeSobrenome" class="inputPadrao" placeholder="Nome completo" required>
