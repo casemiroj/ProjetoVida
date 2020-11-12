@@ -1,0 +1,32 @@
+/*REQUISITOS*/
+.requisitos{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.requisitos h2 {
+    color: #EF0000;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.requisitos p{
+    color: #3F8FBC;
+    font-style: italic;
+    font-size: 1em;
+    text-align: center;
+}
+
+.requisitos ul {
+    margin-top: 20px;
+}
+
+.requisitos ul h2{
+    margin-bottom: 20px;
+}
+
+.requisitos ul li {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
