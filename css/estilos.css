@@ -27,40 +27,37 @@ header {
     float: left;
 }
 
-.btn-cadastro {
-    width: 150px;
-    height: 50px;
+.btns {
+    width: 50%;
     display: flex;
-    align-items: center;
-    background-color: #EF0000;
-    float: right;
-    border-radius: 30px;
-    transition: 500ms;
+    justify-content: space-around;
 }
 
-.btn-cadastro:hover{
-    filter: brightness(70%);
-    border-radius: 10px;
+.btn {
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.btn-cadastro {
+    background-color: #EF0000;
 }
 
 .btn-requisitos {
-    width: 150px;
-    height: 50px;
-    background-color: #3F8FBC;
-    float: right;
-    margin-right: 10px;
-    border-radius: 30px;
-    transition: 500ms;
-    display: flex;
-    align-items: center;
+    background-color: #3F8FBC
 }
 
-.btn-requisitos:hover{
+.btn-login {
+    background-color: #ffe421;
+}
+
+.btn-cadastro:hover, .btn-requisitos:hover, .btn-login:hover {
     filter: brightness(70%);
-    border-radius: 10px;
 }
                                         
-.btn-cadastro p, .btn-requisitos p{
+.btn-cadastro p, .btn-requisitos p, .btn-login p{
     color: #fff;
     text-align: center;
     font-size: 1em;
