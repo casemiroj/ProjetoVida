@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,6 +37,15 @@
                 <h2>Area restrita</h2>
                 <p>Faça o login</p>
             </div>
+
+            <p class="erro">
+                <?php
+                    if(isset($_SESSION['loginErro'])){
+                        echo $_SESSION ['loginErro'];
+                        unset($_SESSION ['loginErro']);
+                    }
+                ?>
+            </p>
 
             <form class="login" action="valida.php" method="post">
                

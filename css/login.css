@@ -35,6 +35,11 @@
     font-style: italic;
 }
 
+.erro {
+    color: #EF0000;
+    margin-top: 10px;
+}
+
 input {
     padding: 20px;
     width: 500px;
