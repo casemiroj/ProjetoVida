@@ -1,5 +1,33 @@
+nav.menu {
+    justify-content: center;
+}
+
+.paginaDoadores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .paginaDoadores h1{
     color: #EF0000;
     font-size: 2.5rem;
     font-weight: bold;
+    width: 60%;
+    margin-bottom: 2rem;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {     
+    color: #EF0000;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+td {
+    padding: 20px 0;
 }
